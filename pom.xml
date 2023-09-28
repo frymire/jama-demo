@@ -16,7 +16,6 @@
 
     <dependencies>
 
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -24,7 +23,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/gov.nist.math/jama -->
         <dependency>
             <groupId>gov.nist.math</groupId>
             <artifactId>jama</artifactId>

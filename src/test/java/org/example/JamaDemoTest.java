@@ -7,32 +7,27 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class JamaDemoTest
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public JamaDemoTest(String testName )
-    {
-        super( testName );
-    }
+public class JamaDemoTest extends TestCase {
+  /**
+   * Create the test case
+   *
+   * @param testName name of the test case
+   */
+  public JamaDemoTest(String testName) {
+    super(testName);
+  }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( JamaDemoTest.class );
-    }
+  /**
+   * @return the suite of tests being tested
+   */
+  public static Test suite() {
+    return new TestSuite(JamaDemoTest.class);
+  }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+  /**
+   * Rigourous Test :-)
+   */
+  public void testApp() {
+    assertTrue(true);
+  }
 }
